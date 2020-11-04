@@ -13,7 +13,7 @@ date_default_timezone_set("Asia/Jakarta");
 
 class Scrape{
 
-	public $base_url = "https://wargaid.com";
+	public $base_url = "http://149.56.24.226";
 		
 	function Format_Menit($time, $format = '%02d:%02d') {
 		if ($time < 1) {
